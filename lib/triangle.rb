@@ -9,7 +9,9 @@ class Triangle
   end
   
   def valid?
-    @
+    one_two = @sides[0] + @sides[1]
+    one_three = @sides[0] + @sides[2]
+    two_three = @sides[1] + @sides[2]
   end
   
   def kind 
