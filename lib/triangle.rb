@@ -15,7 +15,7 @@ class Triangle
   end
   
   def kind 
-    if @sides != 0 && 
+    if @sides != 0 && ()
         
   end
 end
