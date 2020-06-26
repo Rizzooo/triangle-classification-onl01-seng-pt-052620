@@ -1,11 +1,16 @@
 class Triangle
-  attr_accessor :length_1, :length_2, :length_3
+  attr_accessor 
   
-  def initialize(sides)
-    sides.each { |key, value| self.send (("#{key}="), value)}
+  def initialize(side1, side2, side3)
+    @side1 = side1
+    @side2 = side2
+    @side3 = side3
   end
   
   def kind 
-    if 
+    if @side1 == @side2 && @side3
+      :equilateral
+    elsif @side1 || @side2 == @side3
+      :isosceles
   end
 end
