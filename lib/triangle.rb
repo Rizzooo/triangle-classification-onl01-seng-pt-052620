@@ -32,7 +32,7 @@ class Triangle
       raise TriangleError
     end
   end
-  class TriangleError < StantardError
+  class TriangleError < StandardError
   
   end
 end
