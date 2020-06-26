@@ -35,5 +35,5 @@ class Triangle
 end
   
 class TriangleError < StantardError
-    
+  
 end
