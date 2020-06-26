@@ -19,4 +19,8 @@ class Triangle
       return false 
     end
   end
+  
+  def kind
+    
+  end
 end
