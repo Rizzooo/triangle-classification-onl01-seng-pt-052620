@@ -1,3 +1,5 @@
+require_relative ''
+
 class Triangle
   attr_accessor 
   
