@@ -15,7 +15,8 @@ class Triangle
   end
   
   def kind 
-    if @sides != 0 && (one_two > @sides[2] && )
+    if @sides != 0 && (one_two > @sides[2] && one_three > @sides[1] && two_three > @sides[0])
+      
         
   end
 end
