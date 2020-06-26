@@ -33,4 +33,7 @@ class Triangle
       raise TriangleError
     end
   end
+  
+  class Triangle Error < StantardError
+    
 end
