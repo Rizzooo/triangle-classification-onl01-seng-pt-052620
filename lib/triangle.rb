@@ -1,5 +1,3 @@
-require_relative '../lib/triangle'
-
 class Triangle
   attr_accessor 
   
